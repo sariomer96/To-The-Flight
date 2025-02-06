@@ -11,6 +11,7 @@
 		174BFD622D553F2700A729FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174BFD612D553F2700A729FF /* ContentView.swift */; };
 		174BFD642D553F2900A729FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 174BFD632D553F2900A729FF /* Assets.xcassets */; };
 		174BFD672D553F2900A729FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 174BFD662D553F2900A729FF /* Preview Assets.xcassets */; };
+		174BFD6E2D5541A100A729FF /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174BFD6D2D5541A100A729FF /* OnBoardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		174BFD612D553F2700A729FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		174BFD632D553F2900A729FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		174BFD662D553F2900A729FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		174BFD6D2D5541A100A729FF /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				174BFD612D553F2700A729FF /* ContentView.swift */,
 				174BFD632D553F2900A729FF /* Assets.xcassets */,
 				174BFD652D553F2900A729FF /* Preview Content */,
+				174BFD6D2D5541A100A729FF /* OnBoardingView.swift */,
 			);
 			path = "To The Flight";
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				174BFD6E2D5541A100A729FF /* OnBoardingView.swift in Sources */,
 				174BFD622D553F2700A729FF /* ContentView.swift in Sources */,
 				174BFD602D553F2700A729FF /* To_The_FlightApp.swift in Sources */,
 			);
