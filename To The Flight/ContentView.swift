@@ -81,7 +81,7 @@ struct NewFlightScreen: View {
             }
         }
         .fullScreenCover(isPresented: $isMainScreenPresented) {
-            OnboardingScreen()
+            MyFlightScreen()
         }
     }
 }
@@ -89,6 +89,6 @@ struct NewFlightScreen: View {
 
 struct SplashScreenView_Previews: PreviewProvider {
     static var previews: some View {
-        NewFlightScreen()
+        MyFlightScreen()
     }
 }
