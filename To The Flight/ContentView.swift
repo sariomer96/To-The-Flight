@@ -67,7 +67,7 @@ struct NewFlightScreen: View {
                                    .background(Color.blue)
                                    .cornerRadius(8)
                                }
-                               .padding(.horizontal, 16)
+                               .padding(.horizontal, 0)
                        
                 
                 
