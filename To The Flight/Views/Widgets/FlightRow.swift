@@ -3,10 +3,11 @@ import SwiftUI
 // MARK: - Flight Row
 struct FlightRow: View {
     let flight: Flight
+    let imageName: String
     
     var body: some View {
         HStack {
-            Image(systemName: "airplane")
+            Image(imageName)
                 .resizable()
                 .scaledToFit()
                 .frame(width: 50, height: 50)
@@ -34,7 +35,13 @@ struct FlightRow: View {
                     .font(.system(size: 18))
                     .foregroundColor(.gray)
             }
+            
             Spacer()
+            
+            // Sağ tarafa büyüktür (>) işareti ekleme
+            Image(systemName: "chevron.right")
+                .foregroundColor(.gray)
+                .font(.system(size: 18))
         }
         .frame(maxWidth: .infinity, minHeight: 70, alignment: .leading)
         .padding()

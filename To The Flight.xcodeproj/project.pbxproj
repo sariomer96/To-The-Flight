@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		174BFD602D553F2700A729FF /* To_The_FlightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174BFD5F2D553F2700A729FF /* To_The_FlightApp.swift */; };
-		174BFD622D553F2700A729FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174BFD612D553F2700A729FF /* ContentView.swift */; };
+		174BFD622D553F2700A729FF /* NewFlightScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174BFD612D553F2700A729FF /* NewFlightScreen.swift */; };
 		174BFD642D553F2900A729FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 174BFD632D553F2900A729FF /* Assets.xcassets */; };
 		174BFD672D553F2900A729FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 174BFD662D553F2900A729FF /* Preview Assets.xcassets */; };
 		174BFD6E2D5541A100A729FF /* MyFlightScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174BFD6D2D5541A100A729FF /* MyFlightScreen.swift */; };
@@ -16,12 +16,14 @@
 		17D0DFD32D5BF2AD00D0894F /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D0DFD22D5BF2AD00D0894F /* HeaderView.swift */; };
 		17D0DFD52D5BF2DE00D0894F /* FlightRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D0DFD42D5BF2DE00D0894F /* FlightRow.swift */; };
 		17D0DFD72D5BF38B00D0894F /* BottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D0DFD62D5BF38B00D0894F /* BottomBar.swift */; };
+		17D0DFDC2D5CE6E000D0894F /* KeyboardAdaptive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D0DFDB2D5CE6E000D0894F /* KeyboardAdaptive.swift */; };
+		17D0DFDE2D5CE81300D0894F /* OnBoardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D0DFDD2D5CE81300D0894F /* OnBoardingScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		174BFD5C2D553F2700A729FF /* To The Flight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To The Flight.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		174BFD5F2D553F2700A729FF /* To_The_FlightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = To_The_FlightApp.swift; sourceTree = "<group>"; };
-		174BFD612D553F2700A729FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		174BFD612D553F2700A729FF /* NewFlightScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFlightScreen.swift; sourceTree = "<group>"; };
 		174BFD632D553F2900A729FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		174BFD662D553F2900A729FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		174BFD6D2D5541A100A729FF /* MyFlightScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFlightScreen.swift; sourceTree = "<group>"; };
@@ -29,6 +31,8 @@
 		17D0DFD22D5BF2AD00D0894F /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		17D0DFD42D5BF2DE00D0894F /* FlightRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightRow.swift; sourceTree = "<group>"; };
 		17D0DFD62D5BF38B00D0894F /* BottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBar.swift; sourceTree = "<group>"; };
+		17D0DFDB2D5CE6E000D0894F /* KeyboardAdaptive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAdaptive.swift; sourceTree = "<group>"; };
+		17D0DFDD2D5CE81300D0894F /* OnBoardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,15 +65,12 @@
 		174BFD5E2D553F2700A729FF /* To The Flight */ = {
 			isa = PBXGroup;
 			children = (
+				17D0DFDA2D5CCDEA00D0894F /* Models */,
+				17D0DFD82D5CCDC700D0894F /* Views */,
 				174BFD5F2D553F2700A729FF /* To_The_FlightApp.swift */,
-				174BFD612D553F2700A729FF /* ContentView.swift */,
 				174BFD632D553F2900A729FF /* Assets.xcassets */,
 				174BFD652D553F2900A729FF /* Preview Content */,
-				174BFD6D2D5541A100A729FF /* MyFlightScreen.swift */,
-				17D0DFD02D5BF27F00D0894F /* Flight.swift */,
-				17D0DFD22D5BF2AD00D0894F /* HeaderView.swift */,
-				17D0DFD42D5BF2DE00D0894F /* FlightRow.swift */,
-				17D0DFD62D5BF38B00D0894F /* BottomBar.swift */,
+				17D0DFDB2D5CE6E000D0894F /* KeyboardAdaptive.swift */,
 			);
 			path = "To The Flight";
 			sourceTree = "<group>";
@@ -80,6 +81,35 @@
 				174BFD662D553F2900A729FF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		17D0DFD82D5CCDC700D0894F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				17D0DFDD2D5CE81300D0894F /* OnBoardingScreen.swift */,
+				174BFD612D553F2700A729FF /* NewFlightScreen.swift */,
+				174BFD6D2D5541A100A729FF /* MyFlightScreen.swift */,
+				17D0DFD92D5CCDCE00D0894F /* Widgets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		17D0DFD92D5CCDCE00D0894F /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				17D0DFD42D5BF2DE00D0894F /* FlightRow.swift */,
+				17D0DFD22D5BF2AD00D0894F /* HeaderView.swift */,
+				17D0DFD62D5BF38B00D0894F /* BottomBar.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		17D0DFDA2D5CCDEA00D0894F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				17D0DFD02D5BF27F00D0894F /* Flight.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,12 +182,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17D0DFDC2D5CE6E000D0894F /* KeyboardAdaptive.swift in Sources */,
 				17D0DFD32D5BF2AD00D0894F /* HeaderView.swift in Sources */,
 				174BFD6E2D5541A100A729FF /* MyFlightScreen.swift in Sources */,
 				17D0DFD52D5BF2DE00D0894F /* FlightRow.swift in Sources */,
 				17D0DFD12D5BF27F00D0894F /* Flight.swift in Sources */,
 				17D0DFD72D5BF38B00D0894F /* BottomBar.swift in Sources */,
-				174BFD622D553F2700A729FF /* ContentView.swift in Sources */,
+				17D0DFDE2D5CE81300D0894F /* OnBoardingScreen.swift in Sources */,
+				174BFD622D553F2700A729FF /* NewFlightScreen.swift in Sources */,
 				174BFD602D553F2700A729FF /* To_The_FlightApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

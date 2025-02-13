@@ -1,6 +1,8 @@
 import SwiftUI
 
 struct MyFlightScreen: View {
+    
+     
     let flights: [Flight] = [
         Flight(name: "Munich Airport", departureCode: "BCN", arrivalCode: "MUC", arrivalTime: "2:00 PM"),
         Flight(name: "Barcelona Airport", departureCode: "MUC", arrivalCode: "BCN", arrivalTime: "4:00 PM"),
@@ -15,11 +17,12 @@ struct MyFlightScreen: View {
         NavigationView {
             VStack(alignment: .leading) {
                 HeaderView(title: "My Flights")
-                
-                List(flights) { flight in
-                    FlightRow(flight: flight)
+                 
+                List(Array(flights.enumerated()), id: \.element.id) { index, flight in
+                    FlightRow(flight: flight, imageName: "\(index + 1)")
                 }
                 .listStyle(PlainListStyle())
+
             }
             .navigationBarTitle("", displayMode: .inline)
             .navigationBarItems(trailing: EditButtonView())
@@ -32,6 +35,12 @@ struct MyFlightScreen: View {
     }
 }
 
+struct MyFlightScreenView_Previews: PreviewProvider {
+    static var previews: some View {
+        MyFlightScreen()
+    }
+}
+
 struct EditButtonView: View {
     var body: some View {
         Button(action: {
@@ -39,6 +48,7 @@ struct EditButtonView: View {
         }) {
             Text("Edit")
                 .font(.system(size: 20))
+                .bold()
         }
     }
 }

@@ -13,4 +13,5 @@ struct Flight: Identifiable, Hashable {
     let departureCode: String
     let arrivalCode: String
     let arrivalTime: String
+  
 }
