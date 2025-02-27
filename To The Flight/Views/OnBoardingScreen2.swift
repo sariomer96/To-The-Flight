@@ -62,14 +62,14 @@ struct OnBoardingScreen2: View {
                         // Butona basılınca yapılacak işlemler
                     }) {
                         HStack {
-                            Image(systemName: "wallet.pass") // Cüzdan ikonu
-                                .font(.title2) // İkon boyutu
+                            Image(systemName: "wallet.pass")
+                                .font(.title2)
                                 .foregroundColor(.white)
                             Text("Open Apple Wallet")
                                 .fontWeight(.semibold)
                         }
                         .foregroundColor(.white)
-                        .frame(maxWidth: UIScreen.main.bounds.width * 0.85  , maxHeight: 44) // %75 genişlik
+                        .frame(maxWidth: UIScreen.main.bounds.width * 0.85  , maxHeight: 44) // %75
                         .background(Color.black)
                         .cornerRadius(10)
                     }.padding(.top, 72)
@@ -94,8 +94,8 @@ struct OnBoardingScreen2: View {
                                 .cornerRadius(10)
                         }
 
-                        // *** HATA BURADA: Button yerine NavigationLink Kullanılmalı ***
-                        NavigationLink(destination: OnBoardingScreen2()) {
+               
+                        NavigationLink(destination: OnBoardingScreen3()) {
                             Text("Next")
                                 .padding()
                                 .frame(width: 123, height: 44)
@@ -111,10 +111,7 @@ struct OnBoardingScreen2: View {
         }
     }
 }
-
  
-
-// Önizleme
 #Preview {
     OnBoardingScreen2()
 }

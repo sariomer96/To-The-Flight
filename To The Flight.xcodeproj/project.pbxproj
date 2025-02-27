@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		171FDE952D647B8B007D67A7 /* OnBoardingScreen3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171FDE942D647B8B007D67A7 /* OnBoardingScreen3.swift */; };
+		171FDE972D649CA3007D67A7 /* OnBoardingScreen4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171FDE962D649CA3007D67A7 /* OnBoardingScreen4.swift */; };
+		171FDE992D64A479007D67A7 /* FlightDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171FDE982D64A479007D67A7 /* FlightDetailView.swift */; };
+		171FDE9B2D64A9CE007D67A7 /* FlightCardWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171FDE9A2D64A9CE007D67A7 /* FlightCardWidget.swift */; };
 		173409902D5F385C00FFC040 /* OnBoardingScreen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1734098F2D5F385C00FFC040 /* OnBoardingScreen2.swift */; };
 		173409922D5F3E7000FFC040 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 173409912D5F3E7000FFC040 /* Storyboard.storyboard */; };
 		174BFD602D553F2700A729FF /* To_The_FlightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174BFD5F2D553F2700A729FF /* To_The_FlightApp.swift */; };
@@ -21,9 +25,14 @@
 		17D0DFDC2D5CE6E000D0894F /* KeyboardAdaptive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D0DFDB2D5CE6E000D0894F /* KeyboardAdaptive.swift */; };
 		17D0DFDE2D5CE81300D0894F /* OnBoardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D0DFDD2D5CE81300D0894F /* OnBoardingScreen.swift */; };
 		17D0DFE02D5E09C500D0894F /* ProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D0DFDF2D5E09C500D0894F /* ProgressIndicator.swift */; };
+		17E65C432D70788000992ABE /* MyAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E65C422D70788000992ABE /* MyAccountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		171FDE942D647B8B007D67A7 /* OnBoardingScreen3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingScreen3.swift; sourceTree = "<group>"; };
+		171FDE962D649CA3007D67A7 /* OnBoardingScreen4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingScreen4.swift; sourceTree = "<group>"; };
+		171FDE982D64A479007D67A7 /* FlightDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDetailView.swift; sourceTree = "<group>"; };
+		171FDE9A2D64A9CE007D67A7 /* FlightCardWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightCardWidget.swift; sourceTree = "<group>"; };
 		1734098F2D5F385C00FFC040 /* OnBoardingScreen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingScreen2.swift; sourceTree = "<group>"; };
 		173409912D5F3E7000FFC040 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		174BFD5C2D553F2700A729FF /* To The Flight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To The Flight.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,6 +48,7 @@
 		17D0DFDB2D5CE6E000D0894F /* KeyboardAdaptive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAdaptive.swift; sourceTree = "<group>"; };
 		17D0DFDD2D5CE81300D0894F /* OnBoardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingScreen.swift; sourceTree = "<group>"; };
 		17D0DFDF2D5E09C500D0894F /* ProgressIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressIndicator.swift; sourceTree = "<group>"; };
+		17E65C422D70788000992ABE /* MyAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +106,12 @@
 				17D0DFDD2D5CE81300D0894F /* OnBoardingScreen.swift */,
 				174BFD612D553F2700A729FF /* NewFlightScreen.swift */,
 				1734098F2D5F385C00FFC040 /* OnBoardingScreen2.swift */,
+				171FDE942D647B8B007D67A7 /* OnBoardingScreen3.swift */,
+				171FDE962D649CA3007D67A7 /* OnBoardingScreen4.swift */,
+				171FDE982D64A479007D67A7 /* FlightDetailView.swift */,
 				174BFD6D2D5541A100A729FF /* MyFlightScreen.swift */,
 				17D0DFD92D5CCDCE00D0894F /* Widgets */,
+				17E65C422D70788000992ABE /* MyAccountView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -109,6 +123,7 @@
 				17D0DFD22D5BF2AD00D0894F /* HeaderView.swift */,
 				17D0DFD62D5BF38B00D0894F /* BottomBar.swift */,
 				17D0DFDF2D5E09C500D0894F /* ProgressIndicator.swift */,
+				171FDE9A2D64A9CE007D67A7 /* FlightCardWidget.swift */,
 			);
 			path = Widgets;
 			sourceTree = "<group>";
@@ -195,12 +210,17 @@
 				17D0DFDC2D5CE6E000D0894F /* KeyboardAdaptive.swift in Sources */,
 				17D0DFD32D5BF2AD00D0894F /* HeaderView.swift in Sources */,
 				174BFD6E2D5541A100A729FF /* MyFlightScreen.swift in Sources */,
+				171FDE9B2D64A9CE007D67A7 /* FlightCardWidget.swift in Sources */,
 				17D0DFD52D5BF2DE00D0894F /* FlightRow.swift in Sources */,
 				17D0DFD12D5BF27F00D0894F /* Flight.swift in Sources */,
 				17D0DFD72D5BF38B00D0894F /* BottomBar.swift in Sources */,
 				17D0DFDE2D5CE81300D0894F /* OnBoardingScreen.swift in Sources */,
 				174BFD622D553F2700A729FF /* NewFlightScreen.swift in Sources */,
+				171FDE952D647B8B007D67A7 /* OnBoardingScreen3.swift in Sources */,
+				171FDE992D64A479007D67A7 /* FlightDetailView.swift in Sources */,
 				17D0DFE02D5E09C500D0894F /* ProgressIndicator.swift in Sources */,
+				17E65C432D70788000992ABE /* MyAccountView.swift in Sources */,
+				171FDE972D649CA3007D67A7 /* OnBoardingScreen4.swift in Sources */,
 				174BFD602D553F2700A729FF /* To_The_FlightApp.swift in Sources */,
 				173409902D5F385C00FFC040 /* OnBoardingScreen2.swift in Sources */,
 			);
