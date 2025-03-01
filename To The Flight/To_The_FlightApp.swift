@@ -11,7 +11,7 @@ import SwiftUI
 struct To_The_FlightApp: App {
     var body: some Scene {
         WindowGroup {
-            NewFlightScreen()
+            MainView()
         }
     }
 }
